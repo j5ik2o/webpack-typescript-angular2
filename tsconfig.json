@@ -9,7 +9,7 @@
     "sourceMap": true,
     "noEmitHelpers": true,
     "strictNullChecks": false,
-    "baseUrl": "./src/main",
+    "baseUrl": "./src/main/ts",
     "paths": [
     ],
     "lib": [
