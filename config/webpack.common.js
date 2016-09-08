@@ -130,7 +130,7 @@ module.exports = {
           'awesome-typescript-loader',
           'angular2-template-loader'
         ],
-        exclude: [/\.(spec|e2e)\.ts$/]
+        exclude: [/\.(Spec|E2E)\.ts$/]
       },
 
       /*
