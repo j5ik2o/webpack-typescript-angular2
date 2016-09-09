@@ -24,12 +24,19 @@
       "selenium-webdriver",
       "source-map",
       "uglify-js",
-      "webpack"
+      "webpack",
+      "lodash"
     ]
   },
   "exclude": [
     "node_modules",
     "dist"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts"
+  ],
+  "files": [
+    "./typings/bundle.d.ts"
   ],
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true,

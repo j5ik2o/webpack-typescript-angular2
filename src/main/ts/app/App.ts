@@ -17,6 +17,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
           Index
         </a>
       </span>
+      <span>
+        <a [routerLink]=" ['./todo'] ">
+          Todo 
+        </a>
+      </span>
     </nav>
     <main>
       <router-outlet></router-outlet>

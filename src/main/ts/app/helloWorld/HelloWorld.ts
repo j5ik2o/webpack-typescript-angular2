@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HelloWorld {
 
-    value = "hello"
+    value = 'hello';
 
     ngOnInit() {
         console.log('hello `Home` component');
     }
 
-};
+}
