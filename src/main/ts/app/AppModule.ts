@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
+import { Ng2BootstrapModule } from 'ng2-bootstrap/components';
+import { Alert } from './alert';
+
 /*
  * Platform and Environment providers/directives/pipes
  */
@@ -29,8 +32,10 @@ type StoreType = {
     declarations: [
         App,
         HelloWorld,
+        Alert
     ],
     imports: [ // import Angular's modules
+        Ng2BootstrapModule,
         BrowserModule,
         FormsModule,
         HttpModule,

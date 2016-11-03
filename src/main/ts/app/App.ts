@@ -12,11 +12,12 @@ import { Component, ViewEncapsulation } from '@angular/core';
     encapsulation: ViewEncapsulation.None,
     template: `
     <nav>
-      <span>
-        <a [routerLink]=" ['./'] ">
-          Index
-        </a>
-      </span>
+        <span>
+            <a [routerLink]=" ['./'] ">Index</a>
+        </span>
+        <span>
+            <a [routerLink]=" ['./alert'] ">Alert</a>
+        </span>
     </nav>
     <main>
       <router-outlet></router-outlet>

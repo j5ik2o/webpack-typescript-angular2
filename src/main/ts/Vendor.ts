@@ -13,6 +13,9 @@ import '@angularclass/hmr';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
 
+import 'ng2-bootstrap'
+import 'moment'
+
 if ('production' === ENV) {
     // Production
 
