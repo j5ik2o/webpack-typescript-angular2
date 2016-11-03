@@ -205,7 +205,7 @@ module.exports = function (options) {
         from: 'src/main/resources/assets',
         to: 'assets',
       }, {
-        from: 'src/meta',
+        from: 'src/main/resources/meta',
       }, ]),
 
 
